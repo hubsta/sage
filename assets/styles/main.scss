@@ -1,0 +1,26 @@
+@import "common/variables";
+
+// Import npm dependencies
+@import "~bootstrap/scss/bootstrap";
+
+@import "common/global";
+@import "components/buttons";
+@import "components/comments";
+@import "components/forms";
+@import "components/wp-classes";
+@import "layouts/header";
+@import "layouts/sidebar";
+@import "layouts/footer";
+@import "layouts/pages";
+@import "layouts/posts";
+@import "layouts/tinymce";
+
+body {
+  background:url('../images/photo.jpg');
+}
+
+@media (min-width: 980px) {
+  body {
+    background:url('../images/photo1.jpg');
+  }
+}
